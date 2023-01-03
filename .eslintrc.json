@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends" : "@rocketseat/eslint-config/react",
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      },
+      {
+        "usePrettierrc": false
+      }
+    ]
+  }
+}
